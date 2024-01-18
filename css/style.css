@@ -53,7 +53,8 @@ a:hover {
     color: aliceblue;
 }
 
-div.grstepi {
+
+.grstepi {
     border-top: 2px solid #365486;
     border-left: 2px solid #365486;
     border-right: 2px solid #365486;
@@ -160,7 +161,7 @@ button.butp {
     border-radius: 8px;
     padding: 7px;
     margin-top: 0px;
-    margin-bottom: -10px;
+    margin-bottom: 20px;
     cursor: pointer;
     display: block;
     margin-left: auto;
@@ -174,23 +175,24 @@ button:active {
     transform: translateY(3px);
 }
 
-div #luas1 {
+#luas1 {
     margin-left: 10px;
     margin-bottom: -10px;
 }
-div #kel2 {
+#kel2 {
     margin-left: 10px;
     margin-bottom: 10px;
 }
 
 .rst {
-    margin-left: 1170px;
+    float: inline-end;
     color: aliceblue;
     background-color: #FFC436;
     border-color: #F6D776;
     border-radius: 8px;
     padding: 7px;
     cursor: pointer;
+    margin-right: 15px;
 }
 .rst:hover {
     background-color: #D49B54;
