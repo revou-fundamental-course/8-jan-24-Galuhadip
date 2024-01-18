@@ -185,7 +185,7 @@ button:active {
 }
 
 .rst {
-    float: inline-end;
+    float: right;
     color: aliceblue;
     background-color: #FFC436;
     border-color: #F6D776;
